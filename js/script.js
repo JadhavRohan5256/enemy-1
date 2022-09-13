@@ -20,7 +20,7 @@ class Enemy {
     constructor() {
         this.enemySpeed = Math.random() * 4 - 2;
         this.image = new Image();
-        this.image.src = '../img/enemy1.png';
+        this.image.src = 'img/enemy1.png';
         this.spriteWidth = 1758 / 6;
         this.spriteHeight = 155;
         this.width = this.spriteWidth / 3;
